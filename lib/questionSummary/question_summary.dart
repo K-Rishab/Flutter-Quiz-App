@@ -13,7 +13,7 @@ class QuestionSummary extends StatelessWidget {
           children: summaryData.map(
             (data) {
               return QuestionIndex(
-                summaryData,
+                data,
               );
             },
           ).toList(),

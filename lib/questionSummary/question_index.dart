@@ -5,7 +5,7 @@ import 'package:quiz_app/questionSummary/question_identifier.dart';
 class QuestionIndex extends StatelessWidget {
   const QuestionIndex(this.itemData, {super.key});
 
-  final List<Map<String, Object>> itemData;
+  final Map<String, Object> itemData;
 
   @override
   Widget build(context) {
