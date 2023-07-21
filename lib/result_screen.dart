@@ -12,8 +12,8 @@ class ResultScreen extends StatelessWidget {
   final List<String> chosenAnswer;
   final void Function() restart;
 
-  final List<Map<String, Object>> summary = [];
   List<Map<String, Object>> get summaryData {
+    final List<Map<String, Object>> summary = [];
     // now summary can be used as a variable with the help of get keyword
     for (var i = 0; i < chosenAnswer.length; i++) {
       summary.add(
