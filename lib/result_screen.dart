@@ -4,7 +4,7 @@ import 'package:quiz_app/data/questions.dart';
 import 'package:quiz_app/questionSummary/question_summary.dart';
 
 class ResultScreen extends StatelessWidget {
-  ResultScreen({
+  const ResultScreen({
     super.key,
     required this.chosenAnswer,
     required this.restart,
